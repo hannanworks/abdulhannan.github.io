@@ -4,149 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone by : Abdul Hannan</title>
-    <link rel="stylesheet" href="style.css" rel="stylesheet" type="text/css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <div>
-    <button class="language-btn">English <img src="images/down-icon.png"></button>
-                <button>Sign In</button>
-            </div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <div class="header-content">
-            <h1>Unlimited movies, TV shows and more</h1>
-            <h3>Watch anywhere. cancel anytime</h3>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form class="email-signup">
-                <input type="email" placeholder="Enter Email" required/>
-                <button type="submit">Get Started</button>
-            </form>
-        </div>
-    </div>
+    </header>
 
-    <div class="features">
-        <div class="row">
-            <div class="text-col">
-                <h2>Enjoy on your TV.</h2>
-                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
-              Blu-ray players, and more.</p>
-            </div>
-            <div class="img-col">
-                <img src="images/feature-1.png">
-            </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Abdul Hannan</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+    <p>I am an enthusiastic individual looking for the exposure of professionalism in life. Planning to obtain a
+        challenging position in a professional organization in the capacity of Software Development..</p>
+         <div class="socail-media">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+         </div>
+         <a href="cv.pdf" class="btn">Download CV</a>
         </div>
-        <div class="row">
-            <div class="img-col">
-                <img src="images/feature-2.png">
-            </div>
-            <div class="text-col">
-                <h2>Download your shows to watch offline.</h2>
-                <p>Save your favorites easily and always have something to watch.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="text-col">
-                <h2>Watch everywhere.</h2>
-    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-            </div>
-            <div class="img-col">
-                <img src="images/feature-3.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="img-col">
-                <img src="images/feature-4.png">
-            </div>
-            <div class="text-col">
-                <h2>Create profiles for kids.</h2>
-                <p>Send kids on adventures with their favorite characters
-         in a space made just for them—free with your membership.</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <ul class="accordion">
-            <li>
-                <input type="radio" name="accordion" id="first">
-                <label for="first">What is Netflix?</label>
-                <div class="content">
-    <p>Netflix is a streaming service that offers a wide variety
-     of award-winning TV shows, movies,
-    anime, documentaries, and more on thousands of internet-connected devices.</p>
-                </div>
-            </li>
-            <li>
-     <input type="radio" name="accordion" id="second">
-    <label for="second">How much does Netflix cost?</label>
-        <div class="content">
-        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming 
-       device, all for one fixed monthly fee.
-                    Plans range from Rs250 to Rs1,100 a month. No extra costs, no contracts.</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="third">
-                <label for="third">Where can I watch?</label>
-                <div class="content">
-                    <p>You can also download your favorite
-                 shows with the iOS, Android, or Windows 10 app. 
-                Use downloads to watch while you're on the go and without 
-                an internet connection. Take Netflix with you anywhere.</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fourth">
-                <label for="fourth">How do I cancel?</label>
-                <div class="content">
-                    <p>Netflix is flexible. There are no pesky contracts
-                and no commitments. You can easily cancel your 
-            account online in two clicks. There are no cancellation
-                         fees – start or stop your account anytime.</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="fifth">
-                <label for="fifth">What can I watch on Netflix?</label>
-                <div class="content">
-                    <p>Netflix has an extensive library of feature 
-            films, documentaries, TV shows, anime, award-winning
-             Netflix originals, and more.
-                         Watch as much as you want, anytime you want.</p>
-                </div>
-            </li>
-            <li>
-                <input type="radio" name="accordion" id="sixth">
-                <label for="sixth">Is Netflix good for kids?</label>
-                <div class="content">
-                    <p>The Netflix Kids experience is included
-                 in your membership to give parents control while kids 
-                enjoy family-friendly TV shows and movies in their own space.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="iconschu">
-        <ul>
-            <li><p>16,842&nbsp;<i class="fa-solid fa-eye"></i></li></p>
-            <li><p>11,265&nbsp;<i class="fa-solid fa-share"></i></li></p>
-            <li><p>10,953&nbsp;<i class="fa-solid fa-comment"></i></li></p>
-            <li><p>15,268&nbsp;<i class="fa-solid fa-thumbs-up"></i></li></p>
-        </ul>
-    </div>
-        <div class="saa">
-            <hr>
-    <p class="herohere">© DESIGN BY <a href="#">ABDUL HANNAN</a>
-    </div>
+        <div class="home-img">
+            <img src="about.png">
+        </div>
+    </section>
 
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Quam harum maxime eaque
+         praesentium autem sit, libero magni adipisci!</p>
+         <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+         optio hic rem ducimus
+             dolor necessitatibus fugiat rerum quam sequi voluptatum!</p>
+             <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+         optio hic rem ducimus
+             dolor necessitatibus fugiat rerum quam sequi voluptatum!</p>
+             <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+         optio hic rem ducimus
+             dolor necessitatibus fugiat rerum quam sequi voluptatum!</p>
+             <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
     
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio (1).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio (2).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio (3).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio (4).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio (5).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio (6).jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="inpit-box">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email Address" required>
+            </div>
+            <div class="inpit-box">
+                <input type="number" placeholder="Enter Mobile NO">
+                <input type="text" placeholder="Enter Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy;&nbsp;DESIGN BY : <a href="#">ABDUL HANNAN</a></p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script>
+
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+        };
+
+
+
+
+
+
+
+        let section = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('header nav a');
+
+        window.onscroll = () => {
+            sections.foreach(sec => {
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if(top >= offset && top < offset + height){
+                    navLinks.forEach(links => {
+                        links.classList.remove('active');
+                        document.querySelector('header nav a[href*='+ id +']').classList.add('active');
+                    });
+                };
+            });
+            let header = document.querySelector('header');
+
+            header.classList.toggle('sticky', window.scrollY > 100);
+
+
+            menuIcon.classList.remove('bx-x');
+            navbar.classList.remove('navbar');
+        };
+
+        ScrollReveal({
+            distance:'80px',
+            duration:2000,
+            delay:200
+        });
+
+        ScrollReveal().reveal('.home-content, .heading',{origin:'top'});
+    </script>
+
+
 </body>
 </html>
